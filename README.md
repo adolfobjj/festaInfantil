@@ -1,4 +1,4 @@
-## Sistema de Gerenciamento de Eventos
+# Sistema de Gerenciamento de Eventos
 Este é um sistema de gerenciamento de eventos desenvolvido em Java utilizando Spring Boot, Spring Data JPA e Spring Security.
 
 # Funcionalidades
