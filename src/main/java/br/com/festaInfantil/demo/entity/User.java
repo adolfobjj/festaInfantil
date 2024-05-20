@@ -1,10 +1,11 @@
 package br.com.festaInfantil.demo.entity;
 
+import br.com.festaInfantil.demo.enums.Role;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import javax.persistence.*;
 import java.util.Set;
+
 @Data
 @Entity
 public class User {
@@ -33,11 +34,4 @@ public class User {
 
     @OneToMany(mappedBy = "buyer")
     private Set<GiftList> purchasedGifts;
-
-
 }
-
-enum Role {
-    ANFITRIAO, CONVIDADO
-}
-

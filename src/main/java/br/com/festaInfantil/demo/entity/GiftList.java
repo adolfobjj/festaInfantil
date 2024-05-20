@@ -1,6 +1,6 @@
 package br.com.festaInfantil.demo.entity;
 
-import jakarta.persistence.*;
+import br.com.festaInfantil.demo.enums.GiftStatus;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -91,6 +91,4 @@ public class GiftList {
     }
 }
 
-enum GiftStatus {
-    DISPONIVEL, COMPRADO
-}
+

@@ -1,7 +1,14 @@
 package br.com.festaInfantil.demo.controller;
 
 import br.com.festaInfantil.demo.entity.Event;
+import br.com.festaInfantil.demo.entity.GiftList;
 import br.com.festaInfantil.demo.service.GiftListService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
