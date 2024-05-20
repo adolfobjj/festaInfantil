@@ -1,6 +1,7 @@
 package br.com.festaInfantil.demo.service;
 
 import br.com.festaInfantil.demo.entity.Event;
+import br.com.festaInfantil.demo.entity.GiftList;
 import br.com.festaInfantil.demo.repository.GiftListRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
