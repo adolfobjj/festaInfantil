@@ -1,13 +1,18 @@
 package br.com.festaInfantil.demo.entity;
 
-import jakarta.persistence.*;
-import lombok.Data;
-import org.apache.catalina.User;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import br.com.festaInfantil.demo.entity.User;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
 import java.util.Date;
 import java.util.Set;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 public class Event {
     @Id

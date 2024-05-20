@@ -1,10 +1,16 @@
 package br.com.festaInfantil.demo.entity;
 
 import br.com.festaInfantil.demo.enums.GiftStatus;
-import jakarta.persistence.*;
+
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 public class Gift {
     @Id

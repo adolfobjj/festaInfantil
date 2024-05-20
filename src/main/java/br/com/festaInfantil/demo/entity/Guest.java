@@ -1,10 +1,16 @@
 package br.com.festaInfantil.demo.entity;
 
 import br.com.festaInfantil.demo.enums.InvitationStatus;
-import jakarta.persistence.*;
+
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 public class Guest {
     @Id

@@ -18,9 +18,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/api/users/register", "/api/login").permitAll()
+                .antMatchers("/api/events").permitAll() // Permitir acesso sem autenticação para /api/events
                 .anyRequest().authenticated()
-                .and()
-                .formLogin().loginPage("/api/login").permitAll()
                 .and()
                 .logout().permitAll();
     }
